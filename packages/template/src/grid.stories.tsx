@@ -1,9 +1,8 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import mdx from './add.mdx';
-import { Grid } from './Grid';
-
+import mdx from './gird.mdx';
+import { Grid } from './grid';
 import styled from 'styled-components';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -19,7 +18,7 @@ export default {
 } as ComponentMeta<typeof Grid>;
 
 const Title = styled.h1`
-  font-size: 1.5em;
+  font-size: 100px;
   text-align: center;
   color: palevioletred;
 `;
@@ -28,7 +27,6 @@ const Title = styled.h1`
 export const Test = () => {
   return (
     <>
-      <Title>123</Title>
       <Grid />
     </>
   );

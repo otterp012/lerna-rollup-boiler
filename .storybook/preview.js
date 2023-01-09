@@ -7,6 +7,6 @@ export const parameters = {
     },
   },
 };
-// const { addDecorator } = require('@storybook/react');
-// const { withPropsTable } = require('storybook-addon-react-docgen');
-// addDecorator(withPropsTable);
+const { addDecorator } = require('@storybook/react');
+const { withPropsTable } = require('storybook-addon-react-docgen');
+addDecorator(withPropsTable);

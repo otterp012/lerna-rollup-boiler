@@ -3135,11 +3135,6 @@
   dependencies:
     "@octokit/openapi-types" "^14.0.0"
 
-"@over-ui/core@*":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@over-ui/core/-/core-1.1.0.tgz#92e7db2c76226eb3becf9310083963c6e798459a"
-  integrity sha512-yaDlPdxfqk+wHOBaz+LQ4M7zwJv4xTNjOkxm0KCbaJKntNxlvNYj09TsnuI2qYZHTvwJMp1eQGitwKSV85voig==
-
 "@parcel/watcher@2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@parcel/watcher/-/watcher-2.0.4.tgz#f300fef4cc38008ff4b8c29d92588eced3ce014b"
@@ -4555,6 +4550,11 @@
   integrity sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==
   dependencies:
     "@types/unist" "*"
+
+"@types/mdx@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/mdx/-/mdx-2.0.3.tgz#43fd32414f17fcbeced3578109a6edd877a2d96e"
+  integrity sha512-IgHxcT3RC8LzFLhKwP3gbMPeaK7BM9eBH46OdapPA7yvuIUJ8H6zHZV53J8hGZcTSnt95jANt+rTBNUUc22ACQ==
 
 "@types/mime-types@^2.1.0":
   version "2.1.1"
